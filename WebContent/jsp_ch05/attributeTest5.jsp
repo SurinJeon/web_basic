@@ -8,7 +8,10 @@
 </head>
 <body>
 	<%
-
+	pageContext.setAttribute("pageScope", "pageValue");
+	request.setAttribute("requestScope", "requestValue");
 	%>
+	<!-- 다른 파일로 포워딩 -->
+	<jsp:forward page="attributeTest5Result.jsp"></jsp:forward>
 </body>
 </html>
