@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a 태그를 사용한 GET 방식 요청</title>
+</head>
+<body>
+	<h1>2페이지 목록 요청하기</h1>
+	
+	<!-- boardList라는 서블릿에 2페이지 요청함 -->
+	<a href = "boardList?page=2">2 page</a>  <!-- 이건 지금 상대경로로 작성한 것 -->
+	<!-- 절대경로 : "/web_basic/jsp_ch03/boardList?page=2" --> <!-- 여기는 웹이기 때문에 알아서 mapping이 안 됨 << 프로젝트 명을 생략할 수 없음 -->
+	<!-- a태그는 하이퍼링크 만들어주고, 그거 클릭하면 get방식으로 감 -->
+</body>
+</html>

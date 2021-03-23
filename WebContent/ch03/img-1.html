@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		body{
+			background-image: url("img/cover.jpg");
+		} /* body 부분 배경이 모두 해당 사진으로 가득 차게됨 */
+		
+		a{
+			text-decoration: none; /* 밑에 하이퍼링크 밑줄 걸려있던거 없애는 방법<< style에서 적용시키기 */
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- 하이퍼링크도 연결하기 -->
+	<a href = "http://www.kyobobook.co.kr/index.laf">교보문고</a>
+	<a href = "http://www.kyobobook.co.kr/index.laf" target = "_blank"><img alt="빠른연산" src="img/cover.jpg"></a> <!-- 타겟 _blank지정해서 새 창 뜨게 만듦 -->
+	<!-- 원래 기본값은 target = _self << 그 창에서 그대로 뜨는게 원래 디폴트  -->
+	<h1> 바빠 시리즈 </h1>
+	<img alt="빠른연산" src="img/cover.jpg">
+	<br>
+	<img alt="빠른연산" src="/web_basic/ch03/img/cover.jpg" width = "100" height="100"> <!-- 크기 단위를 적어주지 않았을때는 기본적으로 픽셀 단위  -->
+	<br>
+	<img alt="빠른연산" src="/ch03/img/cover.jpg"> <!-- 잘못된 경로라서 엑박뜸!!!!!!!! -->
+	<br>
+	<img src="http://image.kyobobook.co.kr/images/book/large/308/l9791197327308.jpg">
+</body>
+</html>

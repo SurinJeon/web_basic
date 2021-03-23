@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset="UTF-8">
+	<title>테이블 일부 셀 합치기</title>
+	<style>
+		table, th, td{
+			border: 1px solid #ccc;
+		
+		}
+		
+		th{
+		 	padding: 15px;
+		}
+		
+		/* tr아래 있는 td에만 지정하는 법 (th 적용 안 됨)*/
+		tr > th:nth-child(odd) {
+			width: 150px;
+		}
+		
+		tr > td {
+			width: 300px;
+		}
+	
+/* 		#aa{
+			width: 400px;
+		} */
+	</style>
+</head>
+<body>
+	<table> <!-- 표의 특징은 맨 위를 지정해주면 아래는 자동으로 따라감 -->
+		<figcaption> <!-- caption이나 figcaption이나 다 됨(fig는 왼쪽 정렬) -->
+			<strong>User Info</strong>
+			<p>영남 인재 회원 정보입니다.</p>
+		</figcaption>
+		<!-- <colgroup>
+			<col style = "width:150px;">
+			<col style = "width:300px;">
+			<col style = "width:100px;">
+			<col style = "width:300px;">
+		</colgroup> -->
+	
+		<tr>
+			<th>이름</th>
+			<td id = "aa"></td>
+			<th>연락처</th>
+			<td id = "aa"></td>
+		</tr>
+		
+		<tr>
+			<th>주소</th>		
+			<td colspan = "3"></td>
+		</tr>
+		
+		<tr>
+			<th>자기소개</th>
+			<td colspan = "3"></td>
+		</tr>
+	</table>
+</body>
+</html>

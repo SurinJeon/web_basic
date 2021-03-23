@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+	<form action = "/web_basic/html_ch04/registerServlet" method = "post">
+	
+	<fieldset>
+		<legend>개인 정보</legend>
+		<ul>
+			<li>
+				<label for = "name">이름</label>
+				<input type = "text" name ="name" id = "name">
+			</li>
+		
+			<li>
+				<label for = "mail">메일주소</label>
+				<input type = "text" name = "mail" id = "mail">
+			</li>
+		</ul>
+		
+	</fieldset>
+	
+	
+	
+	<h3>수강분야(다수 선택 가능)</h3>
+	<ul>
+		<li> <input type = "checkbox" name = "gubun" value = "grm">문법</li>
+		<li> <input type = "checkbox" name = "gubun" value = "wr">작문</li>
+		<li> <input type = "checkbox" name = "gubun" value = "rd">독해</li>
+	</ul>
+	
+	<h3>수강과목(1과목만 선택 가능)</h3>
+	<ul> <!-- 여기는 레이블 태그 씀 -->
+		<li>
+			<label><input type = "radio" name = "subject" value = "eng">영어회화</label>
+		</li>
+		
+		<li>
+			<label> <input type = "radio" name = "subject" value = "ch">중국어회화 </label>
+		</li>
+		 
+		<li> 
+			<label><input type = "radio" name = "subject" value = "jp">일어회화</label>
+		</li>
+	</ul>
+	
+	<input type = "submit" value = "전송">
+	</form>
+</body>
+</html>
