@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		.container{
+			width: 600px;
+			margin: 0 auto;
+		}		
+		
+		ul{
+			list-style-type: none;
+		}
+		
+		label.title{
+			font-weight: bold;
+			width: 80px;
+			float: left;
+		}
+		
+		div.centered{
+			text-align: center;
+		}
+		
+		fieldset {
+			margin: 15px 10px;
+		}
+		
+		fieldset legend {
+			font-weight: bold;
+			font-size: 18px;
+			color: purple;
+		}
+		
+		ul li{
+			margin-bottom: 10px;
+		}
+		
+		#titleText{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class = "container">
+	<h1 id = "titleText">상품 주문서</h1>
+	<form action="/web_basic/html_ch04/orderResutServlet">
+	<fieldset>
+		<legend>개인정보</legend>
+		<ul>
+			<li>
+				<label for = "name" class = "title">이름</label>
+				<input type = "text" id = "name" placeholder ="여백없이 입력" required autofocus>
+			</li>
+
+			<li>
+				<label for = "tel" class = "title">연락처</label>
+				<input type = "tel" id = "tel" placeholder = "연락가능한 번호">
+			</li>
+		</ul>
+	</fieldset>
+
+	<br>	
+	
+	<fieldset>
+		<legend>배송지정보</legend>
+		<ul>
+			<li>
+				<label for = "addr" class = "title">주소</label>
+				<input type = "text" id = "addr" name = "addr">
+			</li>
+			
+			<li>
+				<label for = "tel2" class = "title">전화번호</label>
+				<input type = "tel" id = "tel2" name = "tel2">
+			</li>
+			
+			<li>
+				<label for = "memo" class = "title">메모</label>
+				<textarea rows="3" cols="40" id = "memo"></textarea>
+			</li>
+		</ul>
+	</fieldset>
+	
+	<br>
+	
+	<fieldset>
+		<legend>주문정보</legend>
+		<ul>
+			<li>
+				<label><input type = "checkbox" name = "guatemala">과테말라 안티구아 (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "guatemalaCount">개 </label>
+			</li>
+
+			<li>
+				<label><input type = "checkbox" name = "indonesia">인도네시아 만델링 (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "indonesiaCount">개 </label>
+			</li>
+
+			<li>
+				<label><input type = "checkbox" name = "jeju">탐나는도다(블렌딩) (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "jejuCount">개 </label>
+			</li>
+		</ul>
+	</fieldset>
+		
+	<div class = "centered">
+		<input type = "submit" value = "주문하기">
+		<input type = "reset" value = "다시 작성">
+	</div>
+	</form>
+	</div>
+</body>
+</html>
