@@ -51,12 +51,12 @@
 		<ul>
 			<li>
 				<label for = "name" class = "title">이름</label>
-				<input type = "text" id = "name" placeholder ="여백없이 입력" required autofocus>
+				<input type = "text" id = "name" name = "name" placeholder ="여백없이 입력" required autofocus>
 			</li>
 
 			<li>
 				<label for = "tel" class = "title">연락처</label>
-				<input type = "tel" id = "tel" placeholder = "연락가능한 번호">
+				<input type = "tel" id = "tel" name = "tel" placeholder = "연락가능한 번호">
 			</li>
 		</ul>
 	</fieldset>
@@ -89,18 +89,18 @@
 		<legend>주문정보</legend>
 		<ul>
 			<li>
-				<label><input type = "checkbox" name = "guatemala">과테말라 안티구아 (100g)</label>
-				<label> <input type = "number" value = "0" max = "5" name = "guatemalaCount">개 </label>
+				<label><input type = "checkbox" name = "order" value = "guatemala">과테말라 안티구아 (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "order">개 </label>
 			</li>
 
 			<li>
-				<label><input type = "checkbox" name = "indonesia">인도네시아 만델링 (100g)</label>
-				<label> <input type = "number" value = "0" max = "5" name = "indonesiaCount">개 </label>
+				<label><input type = "checkbox" name = "order" value = "indonesia">인도네시아 만델링 (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "order">개 </label>
 			</li>
 
 			<li>
-				<label><input type = "checkbox" name = "jeju">탐나는도다(블렌딩) (100g)</label>
-				<label> <input type = "number" value = "0" max = "5" name = "jejuCount">개 </label>
+				<label><input type = "checkbox" name = "order" value = "jeju">탐나는도다(블렌딩) (100g)</label>
+				<label> <input type = "number" value = "0" max = "5" name = "order">개 </label>
 			</li>
 		</ul>
 	</fieldset>

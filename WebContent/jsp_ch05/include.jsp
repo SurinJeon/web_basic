@@ -7,7 +7,7 @@
 	<title>Insert title here</title>
 </head>
 <body>
-	<h2>인클루드 액션 테스트</h2>
+	<h2>인클루드 액션 테스트</h2>	
 	<jsp:include page="includeTest1.jsp">
 		<jsp:param value="hongkildong" name="name"/>
 	</jsp:include>
