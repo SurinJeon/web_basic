@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.box {
+	position: absolute; /* 절대위치를 의미 */
+	left: 50px;
+	top: 70px;
+	width: 100px;
+	height: 60px;
+	
+	background: #fff;
+	border: 2px solid green;
+	text-align: center; /* 수평으로 글자 중간 설정 */
+	line-height: 60px; /* height와 line-height를 맞춰주면 수직으로도 중간 설정이됨 */
+}
+
+/* hover 할 때마다 브러우저 다 적용되기 위해 구구절절 적는 것 너무 귀찮다.. */
+.box:hover {
+	/* -webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg); */
+	transform: rotate(-15deg);
+}

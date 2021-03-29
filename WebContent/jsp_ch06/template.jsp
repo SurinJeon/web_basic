@@ -9,11 +9,22 @@
 <body>
 	<table>
 		<tr>
-			<td height= "43" colspan= 3 align= left>
-			<jsp:include page="top.jsp"></jsp:include>
+			<td height="43" colspan=3 align=left>
+				<jsp:include page="top.jsp" />
 			</td>
 		</tr>
+		<tr>
+			<td width = "15%" align = right valign = top> <br>
+				<jsp:include page="left.jsp" />
+			</td>
+			<td>
+			
+			</td>
+			
+		</tr>
 		
+		
+
 		<tr>
 	</table>
 </body>
