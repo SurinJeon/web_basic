@@ -45,7 +45,10 @@ public class FileUploadServlet extends HttpServlet {
 			MultipartRequest multi = new MultipartRequest(request, uploadPath, size, "utf-8", policy);
 			
 			name = multi.getParameter("name");
+			name = request.getParameter("name");
+			
 			subject = multi.getParameter("subject");
+			subject = request.getParameter("subject");
 			Enumeration<?> files = multi.getFileNames();
 			
 			String file1 = (String)files.nextElement();

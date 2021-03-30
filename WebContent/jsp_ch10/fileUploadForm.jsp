@@ -8,7 +8,7 @@
 </head>
 <body>
 	<section id="uploadFormArea">
-		<form action="fileUpload" method="post" enctype="multipart/form-data">
+	<form action="fileUpload" method="post" enctype="multipart/form-data">
 
 			<table>
 				<tr>
