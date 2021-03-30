@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.accent{
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+p{
+	font-style: italic;
+}
+
+p.txt{
+	font-style: normal;	
+}
+
+#font.p.txt{
+	font: italic 12px/24px 돋움;
+}
+
