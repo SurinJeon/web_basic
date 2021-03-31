@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.container {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-image: url('../img/apple-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.content {
+	position: absolute;
+	top: 300px;
+	width: 90%;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	line-height: 25px;
+}

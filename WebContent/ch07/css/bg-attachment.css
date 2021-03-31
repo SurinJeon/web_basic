@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('../img/bottom-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+
+div{
+	width: 300px;
+	hegith: auto;
+	margin: 20px auto; 
+	padding: 20px;
+}
