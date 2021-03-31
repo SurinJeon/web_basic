@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#color{
+	background: #222222;	
+}
+.text1{
+	color: rgb(255, 255, 255)
+}
+
+.text2{
+	color: rgba(255, 255, 255, 0.8)
+}
+
+.text3{
+	color: rgba(255, 255, 255, 0.5)
+}
+
+.text4{
+	color: rgba(255, 255, 255, 0.2)
+}
+
+#bgcolor{
+	background: #0094ff;
+}
+
+div{
+	background-color: white;
+	width: 90%;
+	padding: 15px;
+	border: 1px solid black;
+}
+
+.bg1{
+	border: 10px dotted black;
+	background-clip: border-box;
+	background-color: #FFCC4D;
+}
+
+.bg2{
+	border: 10px dotted black;
+	background-clip: padding-box;
+	background-color: #FFCC4D;
+}
+
+.bg3{
+	border: 10px dotted black;
+	background-clip: content-box;
+	background-color: #FFCC4D;
+}
+
+
