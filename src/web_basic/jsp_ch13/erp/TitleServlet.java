@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/TitleServlet")
+@WebServlet("/jsp_ch13/titleServlet")
 public class TitleServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     private TitleService service;
@@ -21,7 +21,6 @@ public class TitleServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
-		response.getWriter().append("Served at: ").append(request.getContextPath());
 
 		List<Title> list = service.showTitles();
 		/*
@@ -35,7 +34,7 @@ public class TitleServlet extends HttpServlet {
 		request.setAttribute("list", list);
 		// 담아서 출력 찍어내는건 jsp 페이지에서 할 것
 		
-		request.getRequestDispatcher("/jsp_ch13/titlelist.jsp").forward(request, response);
+		request.getRequestDispatcher("/jsp_ch13/titlelist.jsp").include(request, response);
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
