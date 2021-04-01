@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#block img{
+	display: block;
+	margin: 10px;
+}
+
+div {
+	margin: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px; /* 모서리 둥글게 만들기 */
+}
