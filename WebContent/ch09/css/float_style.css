@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* float-1.html */
+#float1{
+	width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.left-img{
+	float: left;
+	margin-right: 25px;
+}
+
+/* float-2.html */
+.box1{
+	padding: 20px;
+	margin-right: 10px;
+	background: orange;
+	float: left;
+}
+
+.box2{
+	padding: 20px;
+	margin-right: 10px;
+	background: blue;
+	float: left;
+}
+
+.box3{
+	padding: 20px;
+	margin-right: 10px;
+	background: green;
+	float: left;
+}
+
+.box4{
+	padding: 20px;
+	background: #ffffff;
+	float: right;
+	border: 1px solid black;
+}
+
+.box5{
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	background: orange;
+	float: left;
+}
+
+.box6{
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	background: blue;
+	float: left;
+}
+
+.box7{
+	padding: 20px;
+	background: green;
+}
+
+.box8{
+	padding: 20px;
+	margin-top: 40px;
+	background: purple;
+	clear: both;
+}

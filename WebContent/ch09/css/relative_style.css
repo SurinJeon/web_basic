@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.box1{
+	float: left;
+	width: 100px;
+	background: orange;
+	margin-right: 10px;
+	color: white;
+	padding: 20px;
+}
+
+.box2{
+	position: relative;
+	
+	/* left와 top의 기준점은 여기서 지정하지 않았기 때문에 body 기준임! */
+	left: -50px; /* 이거 쳐도 어차피 안 먹힘.. */
+	top: 30px;
+	/* 되게 하기 위해서 relative사용 */
+	
+	float: left;
+	width: 300px;
+	background: blue;
+	color: white;
+	padding: 20px;
+}

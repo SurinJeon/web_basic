@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div#wrapper{
+	position: relative;	
+	
+}
+
+#wrapper .box{
+	border: 1px solid black;
+}
+
+#b1 {
+	position: absolute;
+	width : 100px;
+	height: 100px;
+	z-index: 1;
+	background-color: red;
+}
+
+#b2 {
+	position: absolute;
+	top: 25px;
+	left: 70px;
+	width: 100px;
+	height: 100px;
+	z-index: 3;
+	background-color: orange;
+}
+
+#b3 {
+	position: absolute;
+	width: 100px;
+	top: 60px;
+	left: 30px;
+	height: 100px;
+	z-index: 2;
+	background-color: blue;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.box1{
+	float: left;
+	width: 200px;
+	top: 30px; /* position에서는 left나 top속성을 지정 불가 >> css는 오류가 나는게 아니라 안되면 그냥 무시함 */
+	background: orange;
+	margin-right: 10px;
+	color: white;
+	padding: 20px;
+}
+
+.box2{
+	float: left;
+	width: 300px;
+	background: blue;
+	color: white;
+	padding: 20px;
+}
