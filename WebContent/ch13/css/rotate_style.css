@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.origin {
+	width: 210px;
+	height: 200px;
+	border: 1px solid black;
+	float: left;
+	margin: 40px;
+}
+
+
+/* 앞에 webkit ms moz o는 브라우저 때문에 있는거 */
+.rotate1:hover {
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.rotate2:hover {
+	-webkit-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	-moz-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+}

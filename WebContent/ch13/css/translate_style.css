@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*움직임 효과 주기*/
+.movex{
+	transition: 1s;
+}
+
+.movex:hover{
+	transform: translateX(50px);
+}
+
+.movey{
+	transition: 1.5s;
+}
+
+.movey:hover{
+	transform: translateY(50px);
+}
+
+.movexy{
+	transition: 2s;
+}
+
+.movexy:hover{
+	transform: translate(10px, 20px);
+}

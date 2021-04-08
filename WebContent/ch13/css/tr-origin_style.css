@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+	.origin {
+	width: 160px;
+	height: 240px;
+	border: 1px solid black;
+	float: left;
+	margin: 40px;
+}
+
+.rose {
+	transform: rotateZ(10deg);
+}
+
+/* transform-origin은 기준점을 의미함 */
+.ltop .rose {
+	transform-origin: left top;
+}
+
+.rtop .rose {
+	transform-origin: right top;
+}
+
+.lbottom .rose {
+	transform-origin: left bottom;
+}
+
+.rbottom .rose {
+	transform-origin: right bottom;
+}
