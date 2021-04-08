@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section {
+	padding: 20px;
+	width: 600px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.multi{
+	column-count: 3;
+	column-rule: 2px dotted #000;
+	text-align: justify;
+}
+
+.multi h3{
+	break-before: column;
+}
+
+.multi2{
+	column-count: 3;
+	column-rule: 2px dotted #000;
+	text-align: justify;
+}
+
+.no-col{
+	column-span: all;
+}

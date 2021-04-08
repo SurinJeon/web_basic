@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+	font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+.table1 {
+	border: 1px solid black;
+}
+
+.table1 td {
+	border: 1px dotted black;
+	padding: 10px;
+	text-align: center;
+}
+
+.table2{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.table2 td{
+	border: 1px dashed black;
+	padding: 10px;
+	text-align: center;
+}
+
+.table3{
+	margin-bottom: 50px;
+	border: 1px solid black;
+	border-collapse: seperate;
+	border-spacing: 20px 10px;
+}
+
+.table4 {
+	margin-bottom: 50px;
+	border-collapse: seperate;
+	border-spacing: 20px 10px;
+}
+
+.table3 td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.table4 td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.schedule{
+	border-collapse: seperate;
+	margin: 20px;
+}
+
+.schedule td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+#tb1 td{
+	empty-cells: show;
+}
+
+#tb2 td{
+	empty-cells: hide;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

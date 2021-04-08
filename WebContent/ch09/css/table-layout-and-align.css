@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#layout table, td{
+	border: 1px solid #ccc;
+}
+
+#layout table{
+	width: 300px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-break: break-all;
+	height: auto;
+}
+
+#layout td{
+	width: 150px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#align table, td{
+	border:1px solid #ccc;
+}
+
+#align td{
+	height: 100px;
+	padding: 20px;
+}
+
+.va1 {
+	vertical-align: top;
+}
+
+.va2 {
+	vertical-align: bottom;
+}
+
+.va3 {
+	vertical-align: middle;
+}

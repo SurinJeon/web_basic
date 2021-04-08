@@ -1,0 +1,164 @@
+@charset "UTF-8";
+#attr1 a[href]{
+	background: yellow;
+}
+
+#attr1 ul li{
+	display: inline;
+	padding: 10px;
+}
+
+#attr1 a{
+		text-decoration: none;
+}
+
+#attr2 ul li{
+	list-style: none;
+}
+
+#attr2 a{
+	text-decoration: none;
+}
+
+#attr2 a[target="_blank"]{
+	padding-right: 30px;
+	background: url("../img/newwindow.png") no-repeat center right;
+}
+
+#attr3 ul li{
+	display: inline;
+	padding: 10px;
+}
+
+#attr3 ul li a {
+	text-decoration: none;
+}
+#attr3 .flat{
+	background: blue;
+	color: white;
+}
+
+#attr3 [class~="button"]{
+	border: 2px solid black;
+	box-shadow: rgba(0, 0, 0, 0.4) 5px 5px;
+}
+
+#attr4 a[title |= "us"]{
+	background: url("../img/us.png") no-repeat left center;
+	padding: 5px 25px;
+}
+
+#attr5 a[title ^= "eng"]{
+	background: url("../img/us.png") no-repeat left center;
+	padding: 5px 25px;
+}
+
+#attr5 a[title ^= "jap"]{
+	background: url("../img/jp.png") no-repeat left center;
+	padding: 5px 25px;
+}
+
+#attr5 a[title ^= "chin"]{
+	background: url("../img/ch.png") no-repeat left center;
+	padding: 5px 25px;
+}
+
+
+#attr6 a[href $= "hwp"]{
+	background: url("../img/hwp_icon.gif") center right no-repeat;
+	padding-right: 25px;
+}
+
+#attr6 a[href $= "xls"]{
+	background: url("../img/excel_icon.gif") center right no-repeat;
+	padding-right: 25px;
+}
+
+#attr7 ul li{
+	list-style: circle;
+}
+
+#attr7 a[href *= "w3"]{
+	background: blue;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
